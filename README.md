@@ -17,7 +17,7 @@
         </div>
 <nav>
     <div class="videos">
-        <p>Mini Tutuorial de uso</p>
+        <p>Mini Tutorial de uso</p>
         <video src="videos/20210810_160618.mp4" type= "mp4" controls autoplay muted></video>
     </div>
 
