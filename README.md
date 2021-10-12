@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Des-Encriptador</title>
-    <script type="text/javascript" src="/Js/code.js"></script>
+    <script type="text/javascript" src="code.js"></script>
     <link rel="stile.css" href="/css/stile.css">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/stile.css">
