@@ -20,6 +20,20 @@
         <p>Mini Tutuorial de uso</p>
         <video src="videos/20210810_160618.mp4" type= "mp4" controls autoplay muted></video>
     </div>
+
+<script>function encriptar(elemento){
+    var palabra = document.getElementsByTagName("input")[0].value;
+    var palabra_codificada = btoa(palabra);
+    document.getElementById("resultado").innerHTML = palabra_codificada;
+}
+ 
+function desencriptar(elemento){
+    var palabra = document.getElementsByTagName("input")[0].value;
+    var palabra_descodificada = atob(palabra);
+    document.getElementById("resultado").innerHTML = palabra_descodificada;
+}
+</script>
+
     <div class="ejecutor">
         <input type="text" size="25"/>
     <button type="submit" onclick="encriptar(this)">Encriptar</button>
